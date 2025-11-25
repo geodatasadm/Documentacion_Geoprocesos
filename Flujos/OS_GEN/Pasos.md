@@ -19,7 +19,7 @@ A continuacion se obervara el query de ejemplo:
 fecha_resolucion >= date '2024-11-25 12:00:00' AND latitud >1 AND longitud <-1
 ```
 
-2. Posteriormente se volvera a exportar dicha tabla con el query, se le puede nombrar tabla_dep
+2. Posteriormente se volvera a exportar dicha tabla con el query en la misma gdb en la cual se esta trabajando, se le puede nombrar tabla_dep
 
 
 
