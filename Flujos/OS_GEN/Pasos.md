@@ -29,13 +29,18 @@ fecha_resolucion >= date '2024-11-25 12:00:00' AND latitud >1 AND longitud <-1
 1. Mediante la tabla de atributos, crear los siguientes 3 campos:
 
 Nombre: GRUPO
+
 tipo: Texto
 
 Nombre: CERRADA_CO
+
 tipo: Texto
 
 Nombre: DIAS_DIF
+
 tipo: long
+
+
 
 
 
