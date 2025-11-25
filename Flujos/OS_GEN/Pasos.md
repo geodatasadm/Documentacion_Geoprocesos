@@ -43,7 +43,7 @@ tipo: long
 <img width="857" height="388" alt="image" src="https://github.com/user-attachments/assets/6d9d8e3d-2a43-4e25-8e56-7d1e1d27847a" />
 
 # Calcular campo GRUPO
-1. En la calculadora de campos poner las siguientes configuraciones
+1. En la calculadora de campos de la tabla de atributos poner las siguientes configuraciones
 
 <img width="569" height="701" alt="image" src="https://github.com/user-attachments/assets/b95de059-e22b-4e85-8d7e-656c0d9116a7" />
 
@@ -89,8 +89,17 @@ def check_quadrant(latitud, longitud):
 ```python
 check_quadrant(!latitud!, !longitud!)
 ```
+# Calcular campo DIAS_DIF
+1. En la calculadora de campos de la tabla de atributos poner las siguientes configuraciones
+<img width="570" height="699" alt="image" src="https://github.com/user-attachments/assets/d8470929-bbf7-4a90-9892-d7a25eda3ff5" />
 
+2. Este es el codigo para calcular los valores
 
+   ```visualbasic
+   
+DateDiff("d", [fecha_importacion], [fecha_resolucion])
+```
+   
 
 
 
