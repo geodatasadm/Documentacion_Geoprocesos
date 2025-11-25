@@ -82,7 +82,7 @@ def check_quadrant(latitud, longitud):
     return "NO"
 ```
 
-### En calculadro
+### En Expression
 ```python
 check_quadrant(!latitud!, !longitud!)
 ```
