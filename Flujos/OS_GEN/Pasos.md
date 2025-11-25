@@ -54,9 +54,46 @@ tipo: long
     "Ordenes Fugas de Agua Potable" if !tipo_orden!.startswith("TO831") or !tipo_orden!.startswith("TO832") or !tipo_orden!.startswith("TO833") else (
     "Ordenes de Instalacion de Medidores" if !tipo_orden!.startswith("TO580") or !tipo_orden!.startswith("TO581") or !tipo_orden!.startswith("TO582") or !tipo_orden!.startswith("TO583") or !tipo_orden!.startswith("TO584") else "Sin Grupo Definido"))
    ```
+# Calcular campo CERRADA_CO
+1. Usar herramiente  CALCULATE FIELD
+2. Poner la siguentes configuraciones como se muestra en la siguiente imagen
+
+<img width="967" height="678" alt="image" src="https://github.com/user-attachments/assets/f3cf7f39-fa61-4386-b841-c9c4f8bb27de" />
+
+3. Este es el codigo
+
+   ```python
+   CODEBLOCK
+
+def check_quadrant(latitud, longitud):
+    # Definir los límites de los cuadrantes
+    cuadrantes = [
+        (-100.316973, -100.312949, 25.652214, 25.655862),
+        (-100.428287, -100.424259, 25.671859, 25.675509),
+        (-100.375847, -100.371821, 25.670696, 25.674344),
+        (-100.219353, -100.215330, 25.700751, 25.704396),
+        (-100.244167, -100.240144, 25.677858, 25.681503),
+        (-100.301215, -100.297188, 25.746247, 25.749894),
+        (-100.265576, -100.261549, 25.784094, 25.787739),
+        (-100.379165, -100.375137, 25.737090, 25.740739)
+    ]
+    
+    # Verificar si las coordenadas están dentro de uno de los cuadrantes
+    for xmin, xmax, ymin, ymax in cuadrantes:
+        if xmin <= longitud <= xmax and ymin <= latitud <= ymax:
+            return "SI"
+    
+    # Si no está dentro de ningún cuadrante
+    return "NO"
+
+CALCULADOR
+
+check_quadrant(!latitud!, !longitud!)
+  ```
 
 
    
+
 
 
 
