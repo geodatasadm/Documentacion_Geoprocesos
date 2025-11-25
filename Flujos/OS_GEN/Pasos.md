@@ -99,6 +99,9 @@ check_quadrant(!latitud!, !longitud!)
    DateDiff("d", [fecha_importacion], [fecha_resolucion])
    ```
    
+# Ejemplo de capa con los datos finalmente calculados
+
+<img width="854" height="378" alt="image" src="https://github.com/user-attachments/assets/75a192df-2cbd-499b-9ffc-95ea27ef7a86" />
 
 
 
