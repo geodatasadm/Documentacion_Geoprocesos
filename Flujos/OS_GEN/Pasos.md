@@ -61,10 +61,13 @@ tipo: long
 <img width="967" height="678" alt="image" src="https://github.com/user-attachments/assets/f3cf7f39-fa61-4386-b841-c9c4f8bb27de" />
 
 3. Este es el codigo
+### CODEBLOCK
+```python
+""" CODEBLOCK """
+```
 
-   ```python
-  """ CODEBLOCK """
-
+### Código principal
+```python
 def check_quadrant(latitud, longitud):
     # Definir los límites de los cuadrantes
     cuadrantes = [
@@ -78,23 +81,17 @@ def check_quadrant(latitud, longitud):
         (-100.379165, -100.375137, 25.737090, 25.740739)
     ]
     
-    # Verificar si las coordenadas están dentro de uno de los cuadrantes
     for xmin, xmax, ymin, ymax in cuadrantes:
         if xmin <= longitud <= xmax and ymin <= latitud <= ymax:
             return "SI"
-    
-    # Si no está dentro de ningún cuadrante
     return "NO"
+```
 
-"""CALCULADOR"""
-
+### CALCULADOR
+```python
+""" CALCULADOR """
 check_quadrant(!latitud!, !longitud!)
-  ```
-
-
-   
-
-
+```
 
 
 
