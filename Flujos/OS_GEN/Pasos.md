@@ -76,9 +76,12 @@ def check_quadrant(latitud, longitud):
         (-100.379165, -100.375137, 25.737090, 25.740739)
     ]
     
+    # Verificar si las coordenadas están dentro de uno de los cuadrantes
     for xmin, xmax, ymin, ymax in cuadrantes:
         if xmin <= longitud <= xmax and ymin <= latitud <= ymax:
             return "SI"
+    
+    # Si no está dentro de ningún cuadrante
     return "NO"
 ```
 
