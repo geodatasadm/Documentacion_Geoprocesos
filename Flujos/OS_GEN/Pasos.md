@@ -16,7 +16,8 @@
 1. Se consideraran los siguientes factores para depurar la tabla con la que posteriormente se creara el feature class de puntos, basicamente se tomara en cuenta solo 1 año atras de dia que se este realizando la actualizacion y solo se dejaran los registros que cuenten con latitud y longitud completos.
 A continuacion se obervara el query de ejemplo:
 ```sql
-fecha_resolucion >= date '2024-11-25 12:00:00' AND latitud >1 AND longitud <-1```
+fecha_resolucion >= date '2024-11-25 12:00:00' AND latitud >1 AND longitud <-1
+```
 
 2. Posteriormente se volvera a exportar dicha tabla con el query, se le puede nombrar tabla_dep
 
