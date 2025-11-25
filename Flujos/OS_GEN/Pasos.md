@@ -40,6 +40,11 @@ Nombre: DIAS_DIF
 
 tipo: long
 
+<img width="857" height="388" alt="image" src="https://github.com/user-attachments/assets/6d9d8e3d-2a43-4e25-8e56-7d1e1d27847a" />
+
+# Calcular campo GRUPO
+
+
 
 
 
