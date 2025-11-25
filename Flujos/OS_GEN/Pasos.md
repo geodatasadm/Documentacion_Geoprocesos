@@ -43,6 +43,21 @@ tipo: long
 <img width="857" height="388" alt="image" src="https://github.com/user-attachments/assets/6d9d8e3d-2a43-4e25-8e56-7d1e1d27847a" />
 
 # Calcular campo GRUPO
+1. En la calculadora de campos poner las siguientes configuraciones
+
+<img width="569" height="701" alt="image" src="https://github.com/user-attachments/assets/b95de059-e22b-4e85-8d7e-656c0d9116a7" />
+
+2. Este es el codigo para calcular los valores
+
+   ```python
+   "Ordenes de Alcantarillado" if !TIPO! == "Alcantarillado" else (
+    "Ordenes Fugas de Agua Potable" if !tipo_orden!.startswith("TO831") or !tipo_orden!.startswith("TO832") or !tipo_orden!.startswith("TO833") else (
+    "Ordenes de Instalacion de Medidores" if !tipo_orden!.startswith("TO580") or !tipo_orden!.startswith("TO581") or !tipo_orden!.startswith("TO582") or !tipo_orden!.startswith("TO583") or !tipo_orden!.startswith("TO584") else "Sin Grupo Definido"))
+   ```
+
+
+   
+
 
 
 
