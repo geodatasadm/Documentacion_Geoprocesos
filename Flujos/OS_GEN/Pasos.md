@@ -95,10 +95,9 @@ check_quadrant(!latitud!, !longitud!)
 
 2. Este es el codigo para calcular los valores
 
-   ```visualbasic
-   
-DateDiff("d", [fecha_importacion], [fecha_resolucion])
-```
+   ```vb
+   DateDiff("d", [fecha_importacion], [fecha_resolucion])
+   ```
    
 
 
