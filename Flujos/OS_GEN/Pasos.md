@@ -4,6 +4,7 @@
 
 # Conexion a la tabla de SQL SERVER CON ARCMAP
 1. En Arcmap, ir a database conections
-2. <img width="416" height="185" alt="image" src="https://github.com/user-attachments/assets/858f1056-cf6c-40e5-92a5-752437126062" />
+2. Elegir la siguiente base de datos<br><img width="407" height="159" alt="image" src="https://github.com/user-attachments/assets/70fff15c-341a-48b9-beda-cf5c5a8f21ee" />
+
 
 
