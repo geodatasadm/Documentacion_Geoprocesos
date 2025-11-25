@@ -12,7 +12,7 @@
    
    <img width="994" height="680" alt="image" src="https://github.com/user-attachments/assets/2340143b-79f2-4313-b5fc-92d343084cf0" />
 
-5.
+# Depuracion de tabla recien exportada
 
 
 
