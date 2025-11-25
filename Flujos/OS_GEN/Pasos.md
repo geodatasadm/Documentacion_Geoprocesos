@@ -63,7 +63,7 @@ tipo: long
 3. Este es el codigo
 
    ```python
-   CODEBLOCK
+  """ CODEBLOCK """
 
 def check_quadrant(latitud, longitud):
     # Definir los límites de los cuadrantes
@@ -86,7 +86,7 @@ def check_quadrant(latitud, longitud):
     # Si no está dentro de ningún cuadrante
     return "NO"
 
-CALCULADOR
+"""CALCULADOR"""
 
 check_quadrant(!latitud!, !longitud!)
   ```
