@@ -25,6 +25,9 @@ fecha_resolucion >= date '2024-11-25 12:00:00' AND latitud >1 AND longitud <-1
 1. A patir de la tabla depurada crear una capa de puntos a paritr de sus atributos de latitud y longitd, de la capa temporal resultante, exportarla y nombrarla OS_GEOG porque dicha capa esta hecha a partir de coordenadas geograficas.
 2. Despues mediante la herramineta Project, hacer la proyeccion de la capa OS_GEOG a una con las coordenadas ya conocidas UTM ZONE 14 N y nombrarla como OS_GEN, ya que sera la capa definitiva
 
+# Campos calculados a Añadir
+1. Mediante la tabla de atributos
+
 
 
 
