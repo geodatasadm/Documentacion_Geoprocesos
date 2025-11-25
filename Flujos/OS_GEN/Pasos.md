@@ -61,12 +61,7 @@ tipo: long
 <img width="967" height="678" alt="image" src="https://github.com/user-attachments/assets/f3cf7f39-fa61-4386-b841-c9c4f8bb27de" />
 
 3. Este es el codigo
-### CODEBLOCK
-```python
-""" CODEBLOCK """
-```
-
-### Código principal
+### En codeblock
 ```python
 def check_quadrant(latitud, longitud):
     # Definir los límites de los cuadrantes
@@ -87,9 +82,8 @@ def check_quadrant(latitud, longitud):
     return "NO"
 ```
 
-### CALCULADOR
+### En calculadro
 ```python
-""" CALCULADOR """
 check_quadrant(!latitud!, !longitud!)
 ```
 
